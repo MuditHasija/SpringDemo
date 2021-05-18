@@ -10,4 +10,9 @@ public class DemoController {
 	public String Home() {
 		return "This is Mudit's Home!Welcome";
 	}
+	
+	@RequestMapping(value="/home", method=RequestMethod.GET)
+	public String homeMethod(){
+		return "this is error ";
+	}
 }
