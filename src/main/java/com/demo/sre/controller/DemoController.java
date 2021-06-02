@@ -22,7 +22,7 @@ public class DemoController {
 	
 	@RequestMapping(value="/home", method=RequestMethod.GET)
 	public String homeMethod(){
-		return "-----------------------Welcome traveler, This is Home Base------------------------- ";
+		return "-----------------------Welcome traveler, This is Home Base-------------------------\n ";
 	}
 	@RequestMapping(value="/User", method=RequestMethod.GET)
 	public List<DemoModel> getUser() throws DemoException{
